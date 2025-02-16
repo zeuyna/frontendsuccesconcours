@@ -1,0 +1,30 @@
+.section-title-page {
+    background: #007bff;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.content-box {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+}
+.content-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.btn-custom {
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

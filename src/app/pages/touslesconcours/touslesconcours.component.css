@@ -1,0 +1,46 @@
+    .exam-card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+    }
+    
+    .exam-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .testimonial {
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .accordion-button {
+        font-weight: 600;
+        background-color: #f1f1f1;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: #3498db;
+        color: white;
+    }
+
+    .btn-outline-primary {
+        border-color: #3498db;
+        color: #3498db;
+    }
+
+    .btn-outline-primary:hover {
+        background-color: #3498db;
+        color: white;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        color: white;
+    }
+
+    .btn-success:hover {
+        background-color: #218838;
+    }

@@ -27,9 +27,15 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/style.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/lib/animate/animate.min.css",
+              "src/assets/lib/owlcarousel/assets/owl.carousel.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/main.js"
+              
+            ]
           },
           "configurations": {
             "production": {
@@ -89,6 +95,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
